@@ -179,12 +179,43 @@ Item {
                 Label {
                     text: i18n("Folder URL:")
                 }
-
-                TextField {
-                    id: folderUrl
-                    Layout.minimumWidth: theme.mSize(
+                
+                RowLayout {
+                    TextField {
+                        id: folderUrl
+                        Layout.minimumWidth: theme.mSize(
                                              theme.defaultFont).width * 40
+                    }
+                    
+                    Button {
+                        id: selectFolder
+                        text: i18n("")
+                        iconName: "folder-open"
+                        enabled: true
+                        width: units.iconSizes.large +5
+                        height: width
+                        onClicked: filePicker.open()
+                    
+                        FileDialog {
+                            id: filePicker
+                            title: "Select steam libary dir"
+                            selectFolder: true
+                            selectMultiple : false
+                            nameFilters: [ "All files (*)" ]
+                            folder: shortcuts.home
+                            onAccepted: {
+                                folderUrl.text = folder
+                            }
+                        }
+                    }
+                    
                 }
+
+                
+                
+                
+                
+                
 
                 Label {
                     text: i18n("Information:")

@@ -8,10 +8,8 @@
     <entry name="folders" type="String">
       <label>folders</label>
       <default>[
-      {"icon":"purple-folder-html","url":"/home/enky/Documentos/Allsite-2020-4/","name":"Allasite 2021","info":"Proyecto Allasite files"},
-      {"icon":"user-identity","url":"/home/enky/Documentos/mio-de-mi/","name":"mio-de-mi","info":"Cosas personales"},
-      {"icon":"folder-templates","url":"/home/enky/.local/share/plasma/","name":"plasma","info":"local plasma folder"},
-      {"icon":"black-default-folder-download","url":"/home/enky/Descargas/kde/","name":"kde downloads","info":"packages downloads from kde store"}
+      {"icon":"purple-folder-html","url":"/home/","name":"My Home","info":"Example folder"},
+      {"icon":"folder-templates","url":"/usr/share/plasma/","name":"plasma","info":"root plasma folder"}
       ]</default>
     </entry>
   </group>

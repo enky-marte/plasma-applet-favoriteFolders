@@ -4,6 +4,21 @@ Plasma 5 widget that provides quick access to user-defined favorite folders.
 
 Maybe there is a proper way to do this, but I didn't find a way to be able to have shortcuts to the folders I use most often .... I didn't want to clutter my desktop with links.
 
+
+I tried the following great solutions, but they didn't satisfy the main goal
+(to have a quick access to the folders I use the most at a given time):
+
+* PlacesWidget: it shows Places and these must be configured from Dolphin but this made the dolphin sidebar to show more entries, also I think the concept of places
+does not suit favorite folders
+* FileDrawer : looked promising... but I could not configure it, as it froze the desktop,
+but its function is to show the content of a given folder... then I should create a favorites folder and put links to my other folders.... might work but I couldn't configure it
+
+* PlasmaFolderList: I think it is the one that has the exact functionality, but the installation was a bit complicated and its UI was not very functional (for my taste).
+
+These are cool widgets and have specific purposes.
+
+So inspired by them try to use their ideas and this widget was born.
+
 ## Screenshots
 
 ![screenshot](./package/contents/images/view-1.png)
@@ -29,11 +44,11 @@ Maybe there is a proper way to do this, but I didn't find a way to be able to ha
 still don't know how, sorry again
 ```
 ## TO-DO
-* add folders using a file selector
-* create groups to be able to organize folders (e.g. work, hobbies, downloads, etc)
-* implement tooltips for each folder... to show its location
-* translate
-* see what else can be done to improve usability
+- [x] add folders using a file selector
+- [] create groups to be able to organize folders (e.g. work, hobbies, downloads, etc)
+- [] implement tooltips for each folder... to show its location
+- [] translate
+- [] see what else can be done to improve usability
 
 
 ## THANKS
