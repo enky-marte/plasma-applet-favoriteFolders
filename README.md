@@ -45,10 +45,10 @@ still don't know how, sorry again
 ```
 ## TO-DO
 - [x] add folders using a file selector
-- [] create groups to be able to organize folders (e.g. work, hobbies, downloads, etc)
-- [] implement tooltips for each folder... to show its location
-- [] translate
-- [] see what else can be done to improve usability
+- [ ] create groups to be able to organize folders (e.g. work, hobbies, downloads, etc)
+- [ ] implement tooltips for each folder... to show its location
+- [ ] translate
+- [ ] see what else can be done to improve usability
 
 
 ## THANKS
